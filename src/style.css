@@ -13,7 +13,7 @@
   --color-gold-dark: #9ad12b;
   --color-pine: #1c7a52;
   --color-impostor: #e22d55;
-  --color-crew: #12856d;
+  --color-crew: #43e3c2;
   --color-muted: #5d7a6b;
   --color-danger: #d12748;
   --shadow-game: 3px 3px 0 #16382c;
@@ -144,6 +144,26 @@ textarea:focus-visible {
   transition: none;
 }
 
+.player-slide-enter-active,
+.player-slide-leave-active {
+  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.player-slide-leave-active {
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  width: 100%;
+}
+
+.player-slide-enter-from {
+  transform: translateX(110%);
+}
+
+.player-slide-leave-to {
+  transform: translateX(-110%);
+}
+
 .overflow-anchor-none {
   overflow-anchor: none;
 }
@@ -157,5 +177,10 @@ textarea:focus-visible {
   .swipe-chevron,
   .swipe-hand {
     animation: none;
+  }
+
+  .player-slide-enter-active,
+  .player-slide-leave-active {
+    transition: none;
   }
 }

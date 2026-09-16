@@ -127,11 +127,11 @@ onBeforeUnmount(() => {
       :aria-hidden="!isRevealing"
     >
       <template v-if="isRevealing && isImpostor">
-        <p class="eyebrow text-impostor">Your role</p>
-        <p class="mt-3 font-display text-5xl tracking-tight text-impostor">Impostor</p>
+        <p class="eyebrow text-white">Your role</p>
+        <p class="mt-3 font-archivo text-5xl tracking-wide text-impostor">Impostor</p>
         <template v-if="showHint && hintWord">
           <p class="mt-6 eyebrow text-gold">Hint</p>
-          <p class="mt-2 font-display text-3xl text-white">{{ hintWord }}</p>
+          <p class="mt-2 font-archivo text-4xl tracking-wide text-white">{{ hintWord }}</p>
           <p class="mt-4 max-w-xs text-base leading-relaxed text-white/65">
             You don't get the secret word. Use this hint to blend in.
           </p>
@@ -141,10 +141,9 @@ onBeforeUnmount(() => {
         </p>
       </template>
       <template v-else-if="isRevealing">
-        <p class="eyebrow text-crew">Your role</p>
-        <p class="mt-3 font-display text-3xl tracking-tight text-crew">Keeper</p>
+        <p class="eyebrow text-white">You're a <span class="font-archivo tracking-wide text-crew">Keeper</span></p>
         <p class="mt-6 eyebrow text-gold">Secret word</p>
-        <p class="mt-2 font-display text-4xl text-white">{{ secretWord }}</p>
+        <p class="mt-2 font-archivo text-4xl tracking-wide text-white">{{ secretWord }}</p>
         <p class="mt-5 max-w-xs text-base leading-relaxed text-white/65">
           Memorize this word. Don't show anyone.
         </p>

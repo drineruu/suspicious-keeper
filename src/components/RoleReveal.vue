@@ -1,11 +1,7 @@
 <script setup>
-import { nextTick, onMounted, ref, watch } from 'vue'
 import { useGame } from '../composables/useGame.js'
 import PrimaryButton from './PrimaryButton.vue'
-import SecretSwipeCard from './SecretSwipeCard.vue'
-
-const headingRef = ref(null)
-const isCardOpen = ref(false)
+import RoleRevealPane from './RoleRevealPane.vue'
 
 const {
   currentPlayerName,
@@ -23,21 +19,6 @@ const {
   startPlaying,
   requestQuit,
 } = useGame()
-
-function onRoleSeen() {
-  isCardOpen.value = true
-  markRoleSeen()
-}
-
-function focusHeading() {
-  headingRef.value?.focus({ preventScroll: true })
-}
-
-onMounted(focusHeading)
-watch([revealStep, currentPlayerIndex], () => {
-  isCardOpen.value = false
-  nextTick(focusHeading)
-})
 </script>
 
 <template>
@@ -70,29 +51,18 @@ watch([revealStep, currentPlayerIndex], () => {
         </div>
       </div>
 
-      <div v-else :key="currentPlayerIndex" class="text-center">
-        <p class="eyebrow text-pine">Pass the phone to</p>
-        <h1 ref="headingRef" tabindex="-1" class="mt-3 font-display text-4xl tracking-tight text-ink">
-          {{ currentPlayerName }}
-        </h1>
-
-        <div class="mt-6">
-          <SecretSwipeCard
+      <div v-else class="relative overflow-hidden">
+        <Transition name="player-slide">
+          <RoleRevealPane
+            :key="currentPlayerIndex"
             :player-name="currentPlayerName"
             :is-impostor="isCurrentImpostor"
             :secret-word="secretWord?.word || ''"
             :hint-word="secretWord?.hint || ''"
             :show-hint="showImpostorHint"
-            @seen="onRoleSeen"
-            @closed="isCardOpen = false"
+            @seen="markRoleSeen"
           />
-        </div>
-
-        <p class="mt-4 flex min-h-10 items-center justify-center text-sm text-muted" aria-live="polite">
-          <template v-if="isCardOpen">Memorize it! The card hides itself in a moment.</template>
-          <template v-else-if="!hasSeenCurrentRole">Swipe up to see your role.</template>
-          <template v-else>Pass the phone when you're ready.</template>
-        </p>
+        </Transition>
       </div>
     </div>
 
