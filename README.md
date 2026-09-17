@@ -2,7 +2,13 @@
 
 A mobile-friendly, pass-the-phone social deduction party game. Most players secretly see the same word. One or more players are impostors and do not. After everyone has looked, put the phone down and play the rest of the game yourselves.
 
-Play now at https://drineruu.github.io/suspicious-keeper
+<p align="center">
+  Play now at <a href="https://drineruu.github.io/suspicious-keeper" target="_blank" rel="noopener noreferrer">drineruu.github.io/suspicious-keeper</a>
+</p>
+
+<p align="center">
+  <img src="src/assets/screenshots/main-screen.png" alt="Main screen" width="300" />
+</p>
 
 ## Game description
 
