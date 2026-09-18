@@ -118,7 +118,8 @@
     { "word": "Hyena", "hint": "Laugh", "difficulty": "medium" },
     { "word": "Armadillo", "hint": "Armor", "difficulty": "hard" },
     { "word": "Porcupine", "hint": "Quills", "difficulty": "medium" },
-    { "word": "Platypus", "hint": "Egg", "difficulty": "medium" }
+    { "word": "Platypus", "hint": "Egg", "difficulty": "medium" },
+    { "word": "Raccoon", "hint": "Mask", "difficulty": "easy" }
   ],
   "Places": [
     { "word": "Beach", "hint": "Sand", "difficulty": "easy" },
