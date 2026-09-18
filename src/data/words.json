@@ -181,6 +181,14 @@
     { "word": "Silicon Valley", "hint": "Tech", "difficulty": "medium" },
     { "word": "Universal Studios", "hint": "Theme park", "difficulty": "easy" },
     { "word": "Escape Room", "hint": "Locked puzzles", "difficulty": "medium" }
+    { "word": "Baguio", "hint": "Foggy", "difficulty": "easy" },
+    { "word": "Manila", "hint": "Smog", "difficulty": "easy" },
+    { "word": "La Trinidad", "hint": "Strawberry", "difficulty": "easy" },
+    { "word": "Davao", "hint": "Durian", "difficulty": "easy" },
+    { "word": "La Union", "hint": "Surfing", "difficulty": "easy" },
+    { "word": "Siargao", "hint": "Surfing", "difficulty": "easy" },
+    { "word": "Palawan", "hint": "Blue", "difficulty": "medium" }
+
   ],
   "Objects": [
     { "word": "Disco ball", "hint": "Sparkly", "difficulty": "easy" },
@@ -733,7 +741,7 @@
     { "word": "Service Overseer", "hint": "Ministry", "difficulty": "hard" },
     { "word": "Field Service Group", "hint": "Ministry", "difficulty": "medium" },
     { "word": "Partner", "hint": "Ministry", "difficulty": "easy" },
-    { "word": "Pioneer Meeting", "hint": "Pioneer", "difficulty": "hard" },
+    { "word": "Pioneer Meeting", "hint": "Hall", "difficulty": "hard" },
     { "word": "Bethel", "hint": "Service", "difficulty": "medium" },
     { "word": "Missionary", "hint": "Assignment", "difficulty": "medium" },
     { "word": "Special Pioneer", "hint": "Full-time", "difficulty": "hard" },
@@ -748,8 +756,10 @@
     { "word": "Householder", "hint": "Door", "difficulty": "medium" },
     { "word": "Interested Person", "hint": "Bible", "difficulty": "medium" },
     { "word": "Bible Student", "hint": "Study", "difficulty": "medium" },
+    { "word": "Bible Reading", "hint": "student", "difficulty": "medium" },
+    { "word": "Mic Servant", "hint": "comment", "difficulty": "easy" },
     { "word": "Doorstep", "hint": "House", "difficulty": "easy" },
-    { "word": "Meeting for Field Service", "hint": "Ministry", "difficulty": "medium" },
+    { "word": "Meeting for Field Service", "hint": "Ministry", "difficulty": "hard" },
     { "word": "Prayer", "hint": "Protection", "difficulty": "easy" },
     { "word": "Territory Map", "hint": "Area", "difficulty": "medium" },
     { "word": "Preaching Bag", "hint": "Ministry", "difficulty": "medium" }
