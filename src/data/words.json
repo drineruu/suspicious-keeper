@@ -60,7 +60,8 @@
     { "word": "Korean corn dog", "hint": "Street food", "difficulty": "medium" },
     { "word": "Smash burger", "hint": "Thin", "difficulty": "medium" },
     { "word": "Loaded fries", "hint": "Toppings", "difficulty": "medium" },
-    { "word": "Acai bowl", "hint": "Berries", "difficulty": "medium" }
+    { "word": "Acai bowl", "hint": "Berries", "difficulty": "medium" },
+    { "word": "Meatball", "hint": "Spaghetti", "difficulty": "easy" }
   ],
   "Animals": [
     { "word": "Cat", "hint": "Pet", "difficulty": "easy" },
