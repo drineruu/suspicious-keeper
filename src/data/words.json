@@ -179,7 +179,8 @@
     { "word": "Times Square", "hint": "Lights", "difficulty": "medium" },
     { "word": "Hollywood", "hint": "Movies", "difficulty": "easy" },
     { "word": "Silicon Valley", "hint": "Tech", "difficulty": "medium" },
-    { "word": "Universal Studios", "hint": "Theme park", "difficulty": "easy" }
+    { "word": "Universal Studios", "hint": "Theme park", "difficulty": "easy" },
+    { "word": "Escape Room", "hint": "Locked puzzles", "difficulty": "medium" }
   ],
   "Objects": [
     { "word": "Umbrella", "hint": "Rain", "difficulty": "easy" },
