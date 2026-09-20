@@ -183,6 +183,7 @@
     { "word": "Escape Room", "hint": "Locked puzzles", "difficulty": "medium" }
   ],
   "Objects": [
+    { "word": "Disco ball", "hint": "Sparkly", "difficulty": "easy" },
     { "word": "Umbrella", "hint": "Rain", "difficulty": "easy" },
     { "word": "Backpack", "hint": "School", "difficulty": "easy" },
     { "word": "Hammer", "hint": "Nail", "difficulty": "easy" },
