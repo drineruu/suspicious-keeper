@@ -288,7 +288,8 @@
     { "word": "Pickleball", "hint": "Paddle", "difficulty": "medium" },
     { "word": "Padel", "hint": "Racket", "difficulty": "hard" },
     { "word": "Pilates", "hint": "Core", "difficulty": "medium" },
-    { "word": "Journaling", "hint": "Notebook", "difficulty": "medium" }
+    { "word": "Journaling", "hint": "Notebook", "difficulty": "medium" },
+    { "word": "Trampoline park", "hint": "Bounce", "difficulty": "easy" }
   ],
   "Entertainment": [
     { "word": "Cinema", "hint": "Movie", "difficulty": "easy" },
