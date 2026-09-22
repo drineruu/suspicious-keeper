@@ -322,7 +322,8 @@
     { "word": "K-Drama", "hint": "Oppa", "difficulty": "easy" },
     { "word": "The Beatles", "hint": "Band", "difficulty": "easy" },
     { "word": "Queen", "hint": "Bohemian", "difficulty": "easy" },
-    { "word": "One Direction", "hint": "Boys", "difficulty": "easy" }
+    { "word": "One Direction", "hint": "Boys", "difficulty": "easy" },
+    { "word": "DJ", "hint": "Music", "difficulty": "easy" }
   ],
   "Everyday Life": [
     { "word": "Toothbrush", "hint": "Morning", "difficulty": "easy" },
